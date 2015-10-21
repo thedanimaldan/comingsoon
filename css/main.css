@@ -1,0 +1,201 @@
+*{
+	box-sizing: border-box;
+}
+
+	body, body a, input{
+	font-family: 'Titillium Web', sans-serif;
+	}
+
+	time, h3, button, h1, section h2 {
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	}
+
+	h1, .fa-bars, section h2, button, .fa-twitter {
+	color: #fff;
+	}
+
+body, body a{
+	background: #c6c4c5 url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+	font-size: 16px;
+	color: #c1c0c1;
+	text-decoration: none;
+}
+
+body a:hover {
+	opacity: .5;
+}
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+h1 {
+	font-size: 120px;
+	font-weight: 300;
+	letter-spacing: 20px;
+}
+
+.fa-bars {
+	padding: 22px;
+	background-color: #352d2f;
+	display: block;
+	font-size: 25px;
+}
+
+.fa-bars:hover {
+    background-color: #f63c3c;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	display: none;
+}
+
+main {
+	width: 70%;
+}
+
+b.lead{
+	font-size: 26px;
+	font-weight: 300;
+	color: #d9d8d9;
+	display: block;
+	width: 75%;
+	margin-bottom: 25px;
+	line-height: 30px;
+}
+
+main p{
+	display: block;
+	width: 82%;
+	line-height: 18px;
+}
+
+section h2{
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 6px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+main section p{
+	width: 50%;
+	padding-bottom: 25px;
+	line-height: 18px;
+} 
+
+button {
+    background-color: #f63c3c;
+    display: inline;
+    height: 35px;
+    width: 70px;
+    border: none;
+    font-weight: 300;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+button:hover {
+	background-color: #352d2f;
+}
+
+input {
+    height: 35px;
+    display: inline;
+    padding-left: 15px;
+    border: none;
+    width: 40%;
+    margin-bottom: 25px;
+    float: left;
+}
+
+input:focus {
+    outline: none;
+}
+
+.fa-twitter{
+	font-size: 25px;
+	float: left;
+	margin-right: 10px;
+	height: 70px;
+}
+
+h3 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+aside article {
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+aside article time {
+	margin-top: 20px;
+}
+
+time {
+	display: block;
+	margin-top: 20px;
+	color: #959595;
+}
+
+footer {
+	margin-top: 150px;
+	font-size: 13px;
+	color: #929292;
+}
+
+footer a {
+	color: #edebea;
+	text-decoration: none;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+
+footer li a {
+	font-size: 13px;
+	color: #929292;
+}
+
+footer li {
+	display: inline;
+	margin-right: 10px;
+}
+
+footer ul {
+	float: right;
+}
+
+footer p {
+	float: left;
+}
